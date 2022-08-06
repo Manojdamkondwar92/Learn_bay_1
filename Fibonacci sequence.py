@@ -24,7 +24,7 @@ elif num ==1:
 else:
     print("Fibonacci sequence:")
     while count < num:
-        print(n1, end = "\n ")
+        print(n1, end = ",")
         nth = n1 + n2
         # update values
         n1 = n2
